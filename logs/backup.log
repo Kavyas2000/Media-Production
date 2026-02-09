@@ -1,0 +1,24 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_3c6a8983a5f6736a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3c6a8983a5f6736a | /usr/bin/gzip >> ./media_company.com/private/backups/20260207_120002-media_company_com-database.sql.gz
+
+Backup Summary for media_company.com at 2026-02-07 12:00:04.321702
+Config  : ./media_company.com/private/backups/20260207_120002-media_company_com-site_config_backup.json 137.0B
+Database: ./media_company.com/private/backups/20260207_120002-media_company_com-database.sql.gz         1.6MiB
+Backup for Site media_company.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_3c6a8983a5f6736a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3c6a8983a5f6736a | /usr/bin/gzip >> ./media_company.com/private/backups/20260207_120002-media_company_com-database.sql.gz
+
+Backup Summary for media_company.com at 2026-02-07 12:00:04.397906
+Config  : ./media_company.com/private/backups/20260207_120002-media_company_com-site_config_backup.json 137.0B
+Database: ./media_company.com/private/backups/20260207_120002-media_company_com-database.sql.gz         1.7MiB
+Backup for Site media_company.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_3c6a8983a5f6736a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3c6a8983a5f6736a | /usr/bin/gzip >> ./media_company.com/private/backups/20260209_120002-media_company_com-database.sql.gz
+
+Backup Summary for media_company.com at 2026-02-09 12:00:04.329743
+Config  : ./media_company.com/private/backups/20260209_120002-media_company_com-site_config_backup.json 137.0B
+Database: ./media_company.com/private/backups/20260209_120002-media_company_com-database.sql.gz         1.8MiB
+Backup for Site media_company.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_3c6a8983a5f6736a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3c6a8983a5f6736a | /usr/bin/gzip >> ./media_company.com/private/backups/20260209_120002-media_company_com-database.sql.gz
+
+Backup Summary for media_company.com at 2026-02-09 12:00:04.332002
+Config  : ./media_company.com/private/backups/20260209_120002-media_company_com-site_config_backup.json 137.0B
+Database: ./media_company.com/private/backups/20260209_120002-media_company_com-database.sql.gz         1.8MiB
+Backup for Site media_company.com has been successfully completed
